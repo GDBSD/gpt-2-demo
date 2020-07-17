@@ -1,0 +1,45 @@
+# Packages #
+############
+# it's better to unpack these files and commit the raw source
+# git has its own built-in compression methods
+*.7z
+*.dmg
+*.gz
+*.iso
+*.rar
+*.tar
+*.zip
+*.gzip
+
+# PyTest coverage
+.coverage
+coverage.xml
+
+# PyCharm files #
+#############
+.idea/*
+/.idea/*
+
+# tmp files #
+#############
+tmp_data/*
+tmp/*
+scratchpad.py
+
+# Compiled source #
+###################
+*.com
+*.dll
+*.exe
+*.o
+*.class
+*.so
+
+# Large data sets
+data/*
+
+# Resources, e.g. notes and sample sample_data. #
+#############
+local_resources/*
+logs/*
+env/*
