@@ -65,7 +65,7 @@ def train_model(train_data, test_data, train_args):
     """
     use_cuda = torch.cuda.is_available()
     logging.info(f'Using CUDA: {use_cuda}')
-    model = LanguageModelingModel('gpt2', 'gpt2-medium', args=train_args, use_cuda=use_cuda)
+    model = LanguageModelingModel('gpt2', MODEL, args=train_args, use_cuda=use_cuda)
     model.train_model(train_data, eval_file=test_data)
     model.eval_model(test_data)
 
