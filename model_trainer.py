@@ -18,11 +18,9 @@ def get_training_args():
     train_args = {
         "reprocess_input_data": True,
         "overwrite_output_dir": True,
-        "max_length": 1000,
-        "block_size:": 250,
-        "train_batch_size": 32,
+        "train_batch_size": 64,
         "num_train_epochs": 3,
-        "mlm": False
+        "mlm": False,
     }
     return train_args
 
