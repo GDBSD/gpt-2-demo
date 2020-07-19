@@ -43,3 +43,6 @@ data/*
 local_resources/*
 logs/*
 env/*
+
+# GPT-2 Output Files
+outputs/*
