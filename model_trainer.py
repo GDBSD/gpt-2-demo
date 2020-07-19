@@ -18,7 +18,7 @@ def get_training_args():
     train_args = {
         "reprocess_input_data": True,
         "overwrite_output_dir": True,
-        "train_batch_size": 64,
+        "train_batch_size": 32,
         "num_train_epochs": 3,
         "mlm": False,
     }
