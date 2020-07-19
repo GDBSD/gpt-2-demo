@@ -11,7 +11,7 @@ transformers_logger = logging.getLogger("transformers")
 transformers_logger.setLevel(logging.WARNING)
 
 DATA_FOLDER = 'data'
-MODEL = 'gpt-2-medium'
+MODEL = 'gpt2-medium'
 
 
 def get_training_args():
