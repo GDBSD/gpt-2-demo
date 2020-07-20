@@ -22,5 +22,5 @@ def generate_text(prompt):
 
 
 if __name__ == '__main__':
-    prompt_text = ''
+    prompt_text = 'Cole and Maya followed Harry into the dark room'
     print(generate_text(prompt_text))
